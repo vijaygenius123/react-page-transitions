@@ -6,7 +6,8 @@ export default function Home() {
         <m.div
             initial={{opacity: 0}}
             animate={{opacity: 1}}
-            transition={{duration: 1, ease: "easeOut"}}
+            transition={{duration: 0.75, ease: "easeOut"}}
+            exit={{opacity: 0}}
             className={"text-gray-900 absolute top-0 left-0 w-full h-full bg-orange-100"}
         >
             <Head>
